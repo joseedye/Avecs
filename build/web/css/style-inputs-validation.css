@@ -1,0 +1,16 @@
+.no-valid:focus {
+    border: 2px solid red;
+    background-color: #ff9c993b;
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+tr td{
+    vertical-align:middle !important;
+}
+
+
+
+
+
+

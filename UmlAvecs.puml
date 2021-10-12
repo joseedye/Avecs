@@ -1,0 +1,159 @@
+@startuml
+class Controlador.AprobacionSolicitud
+class Controlador.DeleteCompany
+class Controlador.DeleteDocument
+class Controlador.DeleteUser
+class Controlador.DownloadDoc
+class Controlador.LogOut
+class Controlador.PassChange
+class Controlador.PassRecovery
+class Controlador.QueryCompanies
+class Controlador.QueryDocuments
+class Controlador.QueryRequest
+class Controlador.QuerySolicitudes
+class Controlador.QueryTypeDocuments
+class Controlador.QueryUsers
+class Controlador.RegisterCompany
+class Controlador.RegisterRequest
+class Controlador.RegisterUser
+class Controlador.SignIn
+class Controlador.UpdateActivUser
+class Controlador.UpdateCompany
+class Controlador.UpdatePassword
+class Controlador.UpdateProfile
+class Controlador.UpdateUser
+class Controlador.UploadFile
+class DAO.AsignaturaJpaController
+class DAO.Conexion
+class DAO.DocenteJpaController
+class DAO.DocumentoJpaController
+class DAO.EmpresaJpaController
+class DAO.EstatusSolicitudJpaController
+class DAO.EstudianteJpaController
+class DAO.GrupoJpaController
+class DAO.PersonaJpaController
+class DAO.RecoveryJpaController
+class DAO.SolicitudJpaController
+class DAO.TipoDocumentoJpaController
+class DAO.TipoUsuarioJpaController
+class DAO.UsuarioJpaController
+class DAO.exceptions.IllegalOrphanException
+class DAO.exceptions.NonexistentEntityException
+class DAO.exceptions.PreexistingEntityException
+class DTO.Asignatura
+class DTO.Docente
+class DTO.Documento
+class DTO.Empresa
+class DTO.EstatusSolicitud
+class DTO.Estudiante
+class DTO.Grupo
+class DTO.Persona
+class DTO.Recovery
+class DTO.Solicitud
+class DTO.TipoDocumento
+class DTO.TipoUsuario
+class DTO.Usuario
+class Filter.Ruta
+class Filter.TimeOut
+class Test.Test
+class Util.ServiceEmail
+class Util.Utileria
+class java.io.File
+class java.io.IOException
+class java.io.PrintStream
+class java.io.PrintWriter
+class java.io.StringWriter
+class java.lang.Exception
+class java.text.SimpleDateFormat
+class java.util.ArrayList
+class java.util.Date
+class java.util.HashMap
+class java.util.List
+class java.util.Map
+class java.util.Properties
+class java.util.Random
+class javax.mail.Message
+class javax.mail.Session
+class javax.mail.Transport
+class javax.mail.internet.InternetAddress
+class javax.mail.internet.MimeMessage
+class javax.persistence.CascadeType
+class javax.persistence.EntityManager
+class javax.persistence.EntityManagerFactory
+class javax.persistence.EntityNotFoundException
+class javax.persistence.GenerationType
+class javax.persistence.Persistence
+class javax.persistence.Query
+class javax.persistence.TemporalType
+class javax.persistence.criteria.CriteriaQuery
+class javax.persistence.criteria.Root
+class javax.servlet.FilterChain
+class javax.servlet.FilterConfig
+class javax.servlet.ServletException
+class javax.servlet.ServletRequest
+class javax.servlet.ServletResponse
+class javax.servlet.http.HttpServlet
+class javax.servlet.http.HttpServletRequest
+class javax.servlet.http.HttpServletResponse
+class javax.servlet.http.HttpSession
+class org.apache.commons.codec.digest.DigestUtils
+class org.apache.commons.fileupload.FileItem
+class org.apache.commons.fileupload.disk.DiskFileItemFactory
+class org.apache.commons.fileupload.servlet.ServletFileUpload
+interface java.io.Serializable
+interface javax.servlet.Filter
+Controlador.AprobacionSolicitud --|> javax.servlet.http.HttpServlet
+Controlador.DeleteCompany --|> javax.servlet.http.HttpServlet
+Controlador.DeleteDocument --|> javax.servlet.http.HttpServlet
+Controlador.DeleteUser --|> javax.servlet.http.HttpServlet
+Controlador.DownloadDoc --|> javax.servlet.http.HttpServlet
+Controlador.LogOut --|> javax.servlet.http.HttpServlet
+Controlador.PassChange --|> javax.servlet.http.HttpServlet
+Controlador.PassRecovery --|> javax.servlet.http.HttpServlet
+Controlador.QueryCompanies --|> javax.servlet.http.HttpServlet
+Controlador.QueryDocuments --|> javax.servlet.http.HttpServlet
+Controlador.QueryRequest --|> javax.servlet.http.HttpServlet
+Controlador.QuerySolicitudes --|> javax.servlet.http.HttpServlet
+Controlador.QueryTypeDocuments --|> javax.servlet.http.HttpServlet
+Controlador.QueryUsers --|> javax.servlet.http.HttpServlet
+Controlador.RegisterCompany --|> javax.servlet.http.HttpServlet
+Controlador.RegisterRequest --|> javax.servlet.http.HttpServlet
+Controlador.RegisterUser --|> javax.servlet.http.HttpServlet
+Controlador.SignIn --|> javax.servlet.http.HttpServlet
+Controlador.UpdateActivUser --|> javax.servlet.http.HttpServlet
+Controlador.UpdateCompany --|> javax.servlet.http.HttpServlet
+Controlador.UpdatePassword --|> javax.servlet.http.HttpServlet
+Controlador.UpdateProfile --|> javax.servlet.http.HttpServlet
+Controlador.UpdateUser --|> javax.servlet.http.HttpServlet
+Controlador.UploadFile --|> javax.servlet.http.HttpServlet
+DAO.AsignaturaJpaController --|> java.io.Serializable
+DAO.DocenteJpaController --|> java.io.Serializable
+DAO.DocumentoJpaController --|> java.io.Serializable
+DAO.EmpresaJpaController --|> java.io.Serializable
+DAO.EstatusSolicitudJpaController --|> java.io.Serializable
+DAO.EstudianteJpaController --|> java.io.Serializable
+DAO.GrupoJpaController --|> java.io.Serializable
+DAO.PersonaJpaController --|> java.io.Serializable
+DAO.RecoveryJpaController --|> java.io.Serializable
+DAO.SolicitudJpaController --|> java.io.Serializable
+DAO.TipoDocumentoJpaController --|> java.io.Serializable
+DAO.TipoUsuarioJpaController --|> java.io.Serializable
+DAO.UsuarioJpaController --|> java.io.Serializable
+DAO.exceptions.IllegalOrphanException --|> java.lang.Exception
+DAO.exceptions.NonexistentEntityException --|> java.lang.Exception
+DAO.exceptions.PreexistingEntityException --|> java.lang.Exception
+DTO.Asignatura --|> java.io.Serializable
+DTO.Docente --|> java.io.Serializable
+DTO.Documento --|> java.io.Serializable
+DTO.Empresa --|> java.io.Serializable
+DTO.EstatusSolicitud --|> java.io.Serializable
+DTO.Estudiante --|> java.io.Serializable
+DTO.Grupo --|> java.io.Serializable
+DTO.Persona --|> java.io.Serializable
+DTO.Recovery --|> java.io.Serializable
+DTO.Solicitud --|> java.io.Serializable
+DTO.TipoDocumento --|> java.io.Serializable
+DTO.TipoUsuario --|> java.io.Serializable
+DTO.Usuario --|> java.io.Serializable
+Filter.TimeOut --|> javax.servlet.Filter
+@enduml

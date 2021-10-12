@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../img/walpeper2.jpg) no-repeat center fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #FFFFFF;
+    margin-top: 10px;
+    padding: 3px;
+}
+h1, h3,h5{
+    text-align: center;
+    color: #000000;
+    font-size: 16px serif;
+}
+input[type="email"], input[type="password"] {
+    font-size: 15px;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    border-radius: none;
+    color: #615959;
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:#bd2130;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-return{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #D50000;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttonG{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #D50000;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-return:hover{
+    background: brown;
+}
+
+.buttonG:hover{
+    background: brown;
+}
+
+.button:hover{
+    background:#e2051a;
+}
+
+a{
+    color: #212529;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+    color: #D50000;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 370px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
